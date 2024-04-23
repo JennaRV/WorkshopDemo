@@ -1,0 +1,49 @@
+Question("What is the default visibility modifier for classes and functions in Kotlin?",
+         listOf("private", "protected", "public", "internal"),
+         2,
+         "public is the default visibility modifier in Kotlin."),
+
+Question("How do you declare a variable in Kotlin that can be reassigned?",
+         listOf("let", "var", "val", "const"),
+         1,
+         "var is used to declare a mutable variable in Kotlin."),
+
+Question("Which of the following correctly declares a nullable string in Kotlin?",
+         listOf("String s = null;", "var s: String = null", "var s: String? = null", "String? s = null"),
+         2,
+         "var s: String? = null correctly declares a nullable String in Kotlin."),
+
+Question("In Kotlin, how do you safely call a method on a nullable object?",
+         listOf("obj!.method()", "obj?.method()", "obj.method()?", "obj->method()"),
+         1,
+         "obj?.method() is used to safely call a method on a nullable object in Kotlin."),
+
+Question("What distinguishes Kotlin's approach to handling nullability from Java's?",
+         listOf("Kotlin allows all types to be null by default.", "Java has built-in null safety features similar to Kotlin.", "Kotlin uses the `?` symbol to indicate a type can be nullable.", "Null safety is not a feature of Kotlin."),
+         2,
+         "Kotlin uses the `?` symbol to indicate a type can be nullable, distinguishing its approach from Java's."),
+
+Question("In Kotlin, what does the `val` keyword signify when declaring a variable?",
+         listOf("The variable is mutable and can be reassigned.", "The variable is immutable and cannot be reassigned after initialization.", "The variable is a type of array.", "The variable must be initialized with a null value."),
+         1,
+         "val signifies that the variable is immutable and cannot be reassigned after initialization in Kotlin."),
+
+Question("How are data classes declared in Kotlin compared to regular classes in Java for holding data?",
+         listOf("Data classes in Kotlin automatically generate equals(), hashCode(), and toString() methods", "Data classes are exactly the same as regular classes in Java", "Kotlin does not support data classes", "Java classes are more efficient for holding data"),
+         0,
+         "Data classes in Kotlin automatically generate equals(), hashCode(), and toString() methods."),
+
+Question("Which of the following is a correct way to loop from 1 to 5 in Kotlin?",
+         listOf("for (i in 1..5) println(i)", "for (int i=1; i<=5; i++) System.out.println(i);", "for (i in 1 until 5) println(i)", "Both A and C are correct"),
+         3,
+         "Both for (i in 1..5) println(i) and for (i in 1 until 5) println(i) are correct ways to loop from 1 to 5 in Kotlin."),
+
+Question("In Kotlin, what is the purpose of the `when` expression?",
+         listOf("To execute a block of code several times", "To replace the switch statement found in Java, offering more flexibility", "To declare variables", "To define a method"),
+         1,
+         "`when` expression in Kotlin is used to replace the switch statement found in Java, offering more flexibility."),
+
+Question("Which statement about null safety in Kotlin is true?",
+         listOf("Kotlin uses the same approach as Java for null safety", "In Kotlin, all variables can be null by default", "Kotlin provides built-in null safety tools to prevent `NullPointerException`", "Kotlin requires manual null checks similar to Java"),
+         2,
+         "Kotlin provides built-in null safety tools to prevent `NullPointerException`, making it true about its approach to null safety.")
